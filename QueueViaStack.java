@@ -1,8 +1,6 @@
 package StacknQueue;
 import java.util.*;
-/* Write a program to sort a stack such that the smallest items are on the top. You can use an additional 
-temporary stack, but you may not copy the elements into any other data structure (such as an array). The 
-stack supports the following operations: push, pop, peek, and isEmpty*/
+/* Implement MyQueue using Stack */
 public class QueueViaStack {
 	static class Queue { 
 		static Stack<Integer> s1 = new Stack<Integer>();  
